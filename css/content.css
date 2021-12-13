@@ -101,7 +101,7 @@
 
     .c1{
       background-color: #16191C;
-      padding:75px 55px  ;
+      padding:75px 55px;
     }
 
     .e1{
@@ -126,7 +126,7 @@
 
     .c2{
       background-color: #424F59;
-      padding:75px 55px;
+      position: relative;
     }
 
     .e2{
@@ -434,7 +434,7 @@
   display: block;
   position: relative;
   margin-top: 75px ;
-  margin-left:88px;
+  margin-left:57px;
   background: url('../images/www.svg');
   animation: www 0.5s steps(1) infinite;
 }
@@ -453,6 +453,30 @@
  100%{background-position: -1640px top;}
 }
 
+.w12{
+  width:205px;
+  height:199px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:57px;
+  background: url('../images/w12.svg');
+  animation: w12 0.5s steps(1) infinite;
+}
+
+
+
+ @keyframes w12 {
+ 0%{background-position: 0px top;}
+ 12%{background-position: -205px top;}
+ 24%{background-position: -410px top;}
+ 36%{background-position: -615px top;}
+ 48%{background-position: -820px top;}
+ 60%{background-position: -1025px top;}
+ 72%{background-position: -1230px top;}
+ 84%{background-position: -1435px top;}
+ 100%{background-position: -1640px top;}
+}
 
 /* @keyframes www {
   0%{background-position: 0px top;}
