@@ -75,7 +75,7 @@
 
     .f{
       background-color: #323F47;
-      padding:35px;
+      padding:60px 35px;
     }
 
     .a1{
@@ -85,7 +85,7 @@
 
     .b1{
       background-color: #47545D;
-      padding:75px 55px;
+      position: relative;
     }
 
     .c1{
@@ -100,7 +100,7 @@
 
     .f1{
       background-color: #2F3840;
-      padding:75px 55px ;
+      position: relative;
     }
 
     .a2{
@@ -360,7 +360,7 @@
   position: relative;
   margin-top: 75px ;
   margin-left:55px;
-  background: url('../images/windowani2.svg');
+  background: url('../images/windowani12.svg');
   background-position: -600px;
   animation: w4  1.5s steps(2) infinite;
 }
@@ -368,8 +368,8 @@
 
 @keyframes w4 {
   0%{background-position: 0px top;}
-  50%{background-position: -413px top;}
-  100%{background-position: -825px top;}
+  50%{background-position: -412px top;}
+  100%{background-position: -824px top;}
 
 }
 
@@ -396,3 +396,61 @@
   width: 3098px;
   position: absolute;
 }
+
+.w9{
+  width:203px;
+  height:199px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:55px;
+  background: url('../images/window9.svg');
+  background-position: -600px;
+  animation: w9  1.5s steps(2) infinite;
+}
+
+
+@keyframes w9 {
+  0%{background-position: 0px top;}
+  50%{background-position: -412px top;}
+  100%{background-position: -824px top;}
+
+}
+
+.www{
+  width:205px;
+  height:199px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:88px;
+  background: url('../images/www.svg');
+  animation: www 0.5s steps(1) infinite;
+}
+
+
+
+ @keyframes www {
+ 0%{background-position: 0px top;}
+ 12%{background-position: -205px top;}
+ 24%{background-position: -410px top;}
+ 36%{background-position: -615px top;}
+ 48%{background-position: -820px top;}
+ 60%{background-position: -1025px top;}
+ 72%{background-position: -1230px top;}
+ 84%{background-position: -1435px top;}
+ 100%{background-position: -1640px top;}
+}
+
+
+/* @keyframes www {
+  0%{background-position: 0px top;}
+  12%{background-position: -406px top;}
+  24%{background-position: -812px top;}
+  36%{background-position: -1218px top;}
+  48%{background-position: -1624px top;}
+  60%{background-position: -2030px top;}
+  72%{background-position: -2436px top;}
+  84%{background-position: -2842px top;}
+  100%{background-position: -3248px top;}
+} */
