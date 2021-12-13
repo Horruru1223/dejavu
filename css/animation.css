@@ -24,7 +24,7 @@
   margin-left:55px;
   background: url('../images/windowani12.svg');
   background-position: -600px;
-  animation: w4  1.5s steps(2) infinite;
+  animation: w4  2s steps(2) infinite;
 }
 
 @keyframes w4 {
@@ -65,7 +65,7 @@
   margin-left:55px;
   background: url('../images/window9.svg');
   background-position: -600px;
-  animation: w9  1.5s steps(2) infinite;
+  animation: w9  2s steps(2) infinite;
 }
 
 @keyframes w9 {
@@ -129,4 +129,26 @@
 .hover figure:hover img {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
+}
+
+.w33{
+  width:205px;
+  height:150px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:57px;
+  background: url('../images/window33.svg');
+  animation: w33 1s steps(1) infinite;
+}
+
+ @keyframes w33 {
+ 0%{background-position: 0px top;}
+ 14%{background-position: -205px top;}
+ 28%{background-position: -410px top;}
+ 42%{background-position: -615px top;}
+ 60%{background-position: -820px top;}
+ 72%{background-position: -1025px top;}
+ 84%{background-position: -1230px top;}
+ 100%{background-position: -1435px top;}
 }
