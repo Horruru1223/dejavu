@@ -114,7 +114,7 @@
 
 .e2{
  background-color: #36444B;
- padding:80px 35px;
+ position: relative;
 }
 
 .f2{
@@ -145,7 +145,7 @@
 
 .f3{
  background-color: #343B43;
- padding:75px 55px;
+ position:relative;
 }
 
 .a4{
@@ -317,3 +317,30 @@
   width: 1920px;
   position: absolute;
 }
+
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .h {
+    position: relative;
+    margin: auto;
+    overflow: hidden; 
+    width: 205px;
+}
+.h img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.h:hover img {
+    transform: scale(3.1);
+} */
