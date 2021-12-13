@@ -152,3 +152,26 @@
  84%{background-position: -1230px top;}
  100%{background-position: -1435px top;}
 }
+
+.w18{
+  width:207px;
+  height:199px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:57px;
+  background: url('../images/window18.svg');
+  animation: w18 0.8s steps(1) infinite;
+}
+
+ @keyframes w18 {
+ 0%{background-position: 0px top;}
+ 12%{background-position: -207px top;}
+ 24%{background-position: -414px top;}
+ 36%{background-position: -621px top;}
+ 48%{background-position: -828px top;}
+ 60%{background-position: -1035px top;}
+ 72%{background-position: -1242px top;}
+ 84%{background-position: -1449px top;}
+ 100%{background-position: -1656px top;}
+}
