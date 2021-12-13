@@ -1,3 +1,8 @@
+.body{
+  min-width: 1920px;
+}
+
+
 .lift{
   padding-left: 971px;
   position: sticky;
@@ -225,7 +230,7 @@
 
 .b7{
  background-color: #38454E;
- padding:75px 55px;
+ position: relative;
 }
 
 .c7{
@@ -250,7 +255,7 @@
 
 .b8{
  background-color: #38454E;
- padding:75px 55px;
+ padding:67px 11px;
 }
 
 .c8{
@@ -285,6 +290,16 @@
 
 .d9{
  background-color: #161A1F;
+}
+
+.e9{
+  background-color: #2F3840;
+  padding:109px 80px;
+}
+
+.f9{
+  background-color: #3B454D;
+  padding:102px 0px;
 }
 
 .door{
