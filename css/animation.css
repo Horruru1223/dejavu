@@ -1,0 +1,132 @@
+.w3{
+  width:206px;
+  height:150px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:55px;
+  background: url('../images/windoww.svg');
+  background-position: -393px;
+  animation: w3  1.5s steps(2) infinite;
+}
+
+@keyframes w3 {
+  0%{background-position: 0px top;}
+  100%{background-position: -411px top;}
+}
+
+.w4{
+  width:206px;
+  height:150px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:55px;
+  background: url('../images/windowani12.svg');
+  background-position: -600px;
+  animation: w4  1.5s steps(2) infinite;
+}
+
+@keyframes w4 {
+  0%{background-position: 0px top;}
+  50%{background-position: -412px top;}
+  100%{background-position: -824px top;}
+}
+
+.w5{
+  width:130px;
+  height:150px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:88px;
+  background: url('../images/windowani3.svg');
+  background-position: -260px;
+  animation: w5  1.5s steps(2) infinite;
+}
+
+@keyframes w5 {
+  0%{background-position: 0px top;}
+  100%{background-position: -260px top;}
+}
+
+.door1{
+  height: 2662px;
+  width: 3098px;
+  position: absolute;
+}
+
+.w9{
+  width:203px;
+  height:199px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:55px;
+  background: url('../images/window9.svg');
+  background-position: -600px;
+  animation: w9  1.5s steps(2) infinite;
+}
+
+@keyframes w9 {
+  0%{background-position: 0px top;}
+  50%{background-position: -412px top;}
+  100%{background-position: -824px top;}
+}
+
+.www{
+  width:205px;
+  height:199px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:57px;
+  background: url('../images/www.svg');
+  animation: www 0.5s steps(1) infinite;
+}
+
+ @keyframes www {
+ 0%{background-position: 0px top;}
+ 12%{background-position: -205px top;}
+ 24%{background-position: -410px top;}
+ 36%{background-position: -615px top;}
+ 48%{background-position: -820px top;}
+ 60%{background-position: -1025px top;}
+ 72%{background-position: -1230px top;}
+ 84%{background-position: -1435px top;}
+ 100%{background-position: -1640px top;}
+}
+
+.w12{
+  width:205px;
+  height:199px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:57px;
+  background: url('../images/w12.svg');
+  animation: w12 0.5s steps(1) infinite;
+}
+
+ @keyframes w12 {
+ 0%{background-position: 0px top;}
+ 12%{background-position: -205px top;}
+ 24%{background-position: -410px top;}
+ 36%{background-position: -615px top;}
+ 48%{background-position: -820px top;}
+ 60%{background-position: -1025px top;}
+ 72%{background-position: -1230px top;}
+ 84%{background-position: -1435px top;}
+ 100%{background-position: -1640px top;}
+}
+
+.hover figure img {
+ -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
