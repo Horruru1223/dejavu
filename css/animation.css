@@ -4,7 +4,7 @@
   display: block;
   position: relative;
   margin-top: 75px ;
-  margin-left:55px;
+  margin-left: 94px;
   background: url('../images/windoww.svg');
   background-position: -393px;
   animation: w3  1.5s steps(2) infinite;
@@ -174,4 +174,84 @@
  72%{background-position: -1242px top;}
  84%{background-position: -1449px top;}
  100%{background-position: -1656px top;}
+}
+
+.zoom {
+  padding: 50px;
+  background-image: url('images/окно8.png');
+  transition: transform .2s;
+  width: 205px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+.w39{
+  width:205px;
+  height:199px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:57px;
+  background: url('../images/window39.svg');
+  animation: w39 1s steps(1) infinite;
+}
+
+ @keyframes w39 {
+ 0%{background-position: 0px top;}
+ 12%{background-position: -205px top;}
+ 24%{background-position: -410px top;}
+ 36%{background-position: -615px top;}
+ 48%{background-position: -820px top;}
+ 60%{background-position: -1025px top;}
+ 72%{background-position: -1230px top;}
+ 84%{background-position: -1435px top;}
+ 100%{background-position: -1640px top;}
+}
+
+.w36{
+  width:132px;
+  height:151px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left: 94px;
+  background: url('../images/window36.svg');
+  animation: w36 1s steps(1) infinite;
+}
+
+ @keyframes w36 {
+ 0%{background-position: 0px top;}
+ 14%{background-position: -132px top;}
+ 28%{background-position: -264px top;}
+ 42%{background-position: -396px top;}
+ 60%{background-position: -528px top;}
+ 72%{background-position: -660px top;}
+ 84%{background-position: -792px top;}
+ 100%{background-position: -924px top;}
+}
+
+.w31{
+  width:205px;
+  height:200px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:57px;
+  background: url('../images/w31.svg');
+  animation: w31 0.5s steps(1) infinite;
+}
+
+ @keyframes w31 {
+ 0%{background-position: 0px top;}
+ 12%{background-position: -205px top;}
+ 24%{background-position: -410px top;}
+ 36%{background-position: -615px top;}
+ 48%{background-position: -820px top;}
+ 60%{background-position: -1025px top;}
+ 72%{background-position: -1230px top;}
+ 84%{background-position: -1435px top;}
+ 100%{background-position: -1640px top;}
 }
