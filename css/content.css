@@ -39,7 +39,7 @@
 
 .a{
   background-color: #3B4851;
-  padding:75px 88px;
+  padding:75px 94px;
 }
 
 .b{
@@ -74,7 +74,7 @@
 
 .a1{
  background-color: #2D323A;
- padding:69px 31px 71px 25px;
+ padding:69px 31px 71px 32px;
 }
 
 .b1{
@@ -124,7 +124,7 @@
 
 .a3{
  background-color: #3B4851;
- padding:75px 88px;
+ padding:75px 94px;
 }
 
 .b3{
@@ -150,7 +150,7 @@
 
 .a4{
  background-color: #323F47;
- padding:75px 88px;
+ padding:75px 94px;
 }
 
 .b4{
@@ -175,7 +175,7 @@
 
 .a5{
  background-color: #293238;
- padding:75px 88px;
+ padding:75px 94px;
 }
 
 .b5{
@@ -200,7 +200,7 @@
 
 .a6{
  background-color: #2C3139;
- padding:75px 88px;
+ padding:75px 94px;
 }
 
 .b6{
@@ -215,7 +215,7 @@
 
 .e6{
  background-color: #293238;
- padding:75px 55px;
+ position: relative;
 }
 
 .f6{
@@ -225,7 +225,7 @@
 
 .a7{
  background-color: #3A4951;
- padding:75px 88px;
+ padding:75px 94px;
 }
 
 .b7{
@@ -250,7 +250,7 @@
 
 .a8{
  background-color: #3B454D;
- padding:75px 88px;
+ position: relative;
 }
 
 .b8{
@@ -260,7 +260,7 @@
 
 .c8{
  background-color: #3B4952;
- padding:67px 11px;
+ position: relative;
 }
 
 .e8{
@@ -275,7 +275,7 @@
 
 .a9{
  background-color: #313B43;
- padding:91px 80px 117px 83px;
+ padding:91px 80px 117px 90px;
 }
 
 .b9{
@@ -325,22 +325,3 @@
     margin: 0;
     padding: 0;
 }
-
-/* .h {
-    position: relative;
-    margin: auto;
-    overflow: hidden; 
-    width: 205px;
-}
-.h img {
-    max-width: 100%;
-    transition: all 0.3s;
-    display: block;
-    width: 100%;
-    height: auto;
-    transform: scale(1);
-}
-
-.h:hover img {
-    transform: scale(3.1);
-} */
