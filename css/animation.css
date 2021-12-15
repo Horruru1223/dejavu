@@ -4,7 +4,7 @@
   display: block;
   position: relative;
   margin-top: 75px ;
-  margin-left: 94px;
+  margin-left: 57px;
   background: url('../images/windoww.svg');
   background-position: -393px;
   animation: w3  1.5s steps(2) infinite;
@@ -39,15 +39,20 @@
   display: block;
   position: relative;
   margin-top: 75px ;
-  margin-left:88px;
+  margin-left:94px;
   background: url('../images/windowani3.svg');
   background-position: -260px;
-  animation: w5  1.5s steps(2) infinite;
+  animation: w5  1s steps(2) infinite;
+  animation-play-state: paused;
+}
+
+.w5:hover{
+  animation-play-state: running;
 }
 
 @keyframes w5 {
   0%{background-position: 0px top;}
-  100%{background-position: -260px top;}
+  100%{background-position: -258px top;}
 }
 
 .door1{
@@ -87,14 +92,14 @@
 
  @keyframes www {
  0%{background-position: 0px top;}
- 12%{background-position: -205px top;}
- 24%{background-position: -410px top;}
- 36%{background-position: -615px top;}
- 48%{background-position: -820px top;}
- 60%{background-position: -1025px top;}
- 72%{background-position: -1230px top;}
- 84%{background-position: -1435px top;}
- 100%{background-position: -1640px top;}
+ 12%{background-position: -204.9px top;}
+ 24%{background-position: -409.9px top;}
+ 36%{background-position: -614.9px top;}
+ 48%{background-position: -819.9px top;}
+ 60%{background-position: -1024.9px top;}
+ 72%{background-position: -1229.9px top;}
+ 84%{background-position: -1434.9px top;}
+ 100%{background-position: -1639.9px top;}
 }
 
 .w12{
@@ -110,14 +115,14 @@
 
  @keyframes w12 {
  0%{background-position: 0px top;}
- 12%{background-position: -205px top;}
- 24%{background-position: -410px top;}
- 36%{background-position: -615px top;}
- 48%{background-position: -820px top;}
- 60%{background-position: -1025px top;}
- 72%{background-position: -1230px top;}
- 84%{background-position: -1435px top;}
- 100%{background-position: -1640px top;}
+ 12%{background-position: -204.9px top;}
+ 24%{background-position: -409.9px top;}
+ 36%{background-position: -614.9px top;}
+ 48%{background-position: -819.9px top;}
+ 60%{background-position: -1024.9px top;}
+ 72%{background-position: -1229.9px top;}
+ 84%{background-position: -1434.9px top;}
+ 100%{background-position: -1639.9px top;}
 }
 
 .hover figure img {
@@ -162,6 +167,11 @@
   margin-left:57px;
   background: url('../images/window18.svg');
   animation: w18 0.8s steps(1) infinite;
+  animation-play-state: running;
+}
+
+.w18:hover{
+  animation-play-state: paused;
 }
 
  @keyframes w18 {
@@ -197,18 +207,23 @@
   margin-left:57px;
   background: url('../images/window39.svg');
   animation: w39 1s steps(1) infinite;
+  animation-play-state: running;
+}
+
+.w39:hover{
+  animation-play-state: paused;
 }
 
  @keyframes w39 {
  0%{background-position: 0px top;}
- 12%{background-position: -205px top;}
- 24%{background-position: -410px top;}
- 36%{background-position: -615px top;}
- 48%{background-position: -820px top;}
- 60%{background-position: -1025px top;}
- 72%{background-position: -1230px top;}
- 84%{background-position: -1435px top;}
- 100%{background-position: -1640px top;}
+ 12%{background-position: -204.9px top;}
+ 24%{background-position: -409.9px top;}
+ 36%{background-position: -614.9px top;}
+ 48%{background-position: -819.9px top;}
+ 60%{background-position: -1024.9px top;}
+ 72%{background-position: -1229.9px top;}
+ 84%{background-position: -1434.9px top;}
+ 100%{background-position: -1639.9px top;}
 }
 
 .w36{
@@ -246,12 +261,112 @@
 
  @keyframes w31 {
  0%{background-position: 0px top;}
- 12%{background-position: -205px top;}
- 24%{background-position: -410px top;}
- 36%{background-position: -615px top;}
- 48%{background-position: -820px top;}
- 60%{background-position: -1025px top;}
- 72%{background-position: -1230px top;}
- 84%{background-position: -1435px top;}
- 100%{background-position: -1640px top;}
+ 12%{background-position: -204.9px top;}
+ 24%{background-position: -409.9px top;}
+ 36%{background-position: -614.9px top;}
+ 48%{background-position: -819.9px top;}
+ 60%{background-position: -1024.9px top;}
+ 72%{background-position: -1229.9px top;}
+ 84%{background-position: -1434.9px top;}
+ 100%{background-position: -1639.9px top;}
+}
+
+.w100{
+  width:206px;
+  height:150px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:57px;
+  background: url('../images/window100.svg');
+  animation: w100 1s steps(1) infinite;
+}
+
+ @keyframes w100 {
+ 0%{background-position: 0px top;}
+ 11%{background-position: -206px top;}
+ 22%{background-position: -412px top;}
+ 33%{background-position: -618px top;}
+ 44%{background-position: -824px top;}
+ 55%{background-position: -1030px top;}
+ 66%{background-position: -1236px top;}
+ 77%{background-position: -1442px top;}
+ 88%{background-position: -1648px top;}
+ 100%{background-position: -1854px top;}
+}
+
+.w13{
+  width:130px;
+  height:150px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left: 94px;
+  background: url('../images/w13.svg');
+  animation: w13 10s steps(2) infinite;
+}
+
+ @keyframes w13 {
+ 0%{background-position: 0px top;}
+ 14%{background-position: -130px top;}
+ 28%{background-position: -260px top;}
+ 42%{background-position: -390px top;}
+ 56%{background-position: -520px top;}
+ 70%{background-position: -650px top;}
+ 84%{background-position: -780px top;}
+ 100%{background-position: -910px top;}
+ /* 56%{background-position: -1040px top;}
+ 63%{background-position: -1170px top;}
+ 70%{background-position: -1300px top;}
+ 77%{background-position: -1430px top;}
+ 84%{background-position: -1560px top;}
+ 100%{background-position: -1690px top;} */
+}
+
+.w98{
+  width:207px;
+  height:150px;
+  display: block;
+  position: relative;
+  margin-top: 75px ;
+  margin-left:57px;
+  background: url('../images/w98.svg');
+  animation: w98 0.8s steps(1) infinite;
+}
+
+ @keyframes w98 {
+ 0%{background-position: 0px top;}
+ 20%{background-position: -207px top;}
+ 40%{background-position: -414px top;}
+ 60%{background-position: -621px top;}
+ 80%{background-position: -828px top;}
+ 100%{background-position: -1035px top;}
+}
+
+.w45{
+  width:154px;
+  height:174px;
+  display: block;
+  position: relative;
+  margin-top: 109px ;
+  margin-left:81px;
+  background: url('../images/window46.svg');
+  background-position: -154px;
+  animation: w45  1s steps(1) infinite;
+  animation-play-state: running;
+}
+
+.w45:hover{
+  animation-play-state: paused;
+}
+
+@keyframes w45 {
+  0%{background-position: 0px top;}
+  14%{background-position: -154px top;}
+  28%{background-position: -309px top;}
+  42%{background-position: -464px top;}
+  56%{background-position: -618px top;}
+  70%{background-position: -772px top;}
+  184%{background-position: -926px top;}
+  100%{background-position: -1081px top;}
 }
