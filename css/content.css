@@ -89,7 +89,7 @@
 
 .e1{
  background-color: #2F363D;
- padding:75px 55px ;
+ position: relative;
 }
 
 .f1{
@@ -124,7 +124,7 @@
 
 .a3{
  background-color: #3B4851;
- padding:75px 94px;
+ position: relative;
 }
 
 .b3{
@@ -160,7 +160,7 @@
 
 .c4{
  background-color: #3A4951;
- padding:75px 55px;
+ position: relative;
 }
 
 .e4{
@@ -294,7 +294,7 @@
 
 .e9{
   background-color: #2F3840;
-  padding:109px 80px;
+  position: relative;
 }
 
 .f9{
