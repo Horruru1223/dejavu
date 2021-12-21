@@ -1,5 +1,13 @@
+@media (min-width:1920px) and (max-width:1920px) {
 
-
+}
+img.lift {
+ position: sticky;
+ width: 310px;
+ height: 296px;
+ top: 0px;
+ padding-left: 966px;
+}
 
 .lift{
   padding-left: 971px;
@@ -467,7 +475,7 @@ opacity: 0;
 }
 
 .circle7:hover {
-  transform: scale(2); /* 2 */
+  transform: scale(2);
 }
 
 .circle8 {
@@ -482,5 +490,115 @@ opacity: 0;
 }
 
 .circle8:hover {
-  transform: scale(2); /* 2 */
+  transform: scale(2);
+}
+
+.circle9 {
+  background: #992B4C;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  top: -340px;
+  left: 30px;
+  position: relative;
+  z-index: 999;
+  opacity: 100;
+}
+
+.circle9:hover {
+  opacity: 0;
+}
+
+.circle10 {
+  background: #DD086E;
+  border-radius: 50%;
+  height: 23px;
+  width: 23px;
+  top: -320px;
+  left: 60px;
+  position: relative;
+  z-index: 999;
+}
+
+.circle10:hover {
+  transform: scale(2);
+}
+
+.circle11 {
+  background: #992B4C;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  top: -370px;
+  left: 110px;
+  position: relative;
+  z-index: 999;
+  opacity: 100;
+}
+
+.circle11:hover {
+  opacity: 0;
+}
+
+.circle12 {
+  background: #DD086E;
+  border-radius: 50%;
+  height: 23px;
+  width: 23px;
+  top: -415px;
+  left: 17px;
+  position: relative;
+  z-index: 999;
+}
+
+.circle12:hover {
+  transform: scale(2);
+}
+
+.circle13 {
+  background: #992B4C;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  top: -380px;
+  left: 180px;
+  position: relative;
+  z-index: 999;
+  opacity: 100;
+}
+
+.circle13:hover {
+  opacity: 0;
+}
+
+.circle14 {
+  background: #992B4C;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  top: -430px;
+  left: 220px;
+  position: relative;
+  z-index: 999;
+  opacity: 100;
+}
+
+.circle14:hover {
+  opacity: 0;
+}
+
+.circle15 {
+  background: #DD086E;
+  border-radius: 50%;
+  height: 23px;
+  width: 23px;
+  top: -430px;
+  left: 265px;
+  position: relative;
+  z-index: 999;
+}
+
+.circle15:hover {
+  transform: scale(2);
+}
 }
