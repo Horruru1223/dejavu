@@ -324,7 +324,7 @@
 
   .rectangle{
     width: 1518px;
-    height: 106px;
+    height: 130;
     background-color: #161A1F;
   }
 
@@ -333,7 +333,7 @@
   }
 
   .grass1{
-    height: 300px;
+    height: 360px;
     width: 1518px;
   }
 
@@ -347,8 +347,8 @@
 
    .road{
     position: absolute;
-    top: 2900px;
-    left: 100px;
+    top: 2863px;
+    left: -155px;
     }
 
 
@@ -379,8 +379,8 @@
     border-radius: 50%;
     height: 37px;
     width: 37px;
-    top: 140px;
-    left: 1490px;
+    top: 160px;
+    left: 1475px;
     position: relative;
     z-index: 999;
   }
@@ -409,7 +409,7 @@
     border-radius: 50%;
     height: 44px;
     width: 44px;
-    top: 143px;
+    top: 140px;
     left: 1570px;
     position: relative;
     z-index: 999;
@@ -424,7 +424,7 @@
     border-radius: 50%;
     height: 39px;
     width: 39px;
-    top: 140px;
+    top: 150px;
     left: 1470px;
     position: relative;
     z-index: 999;
