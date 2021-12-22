@@ -1,4 +1,6 @@
-@media (min-width:1440px) and (max-width:1511px) {
+@media (min-width:1024px) and (max-width:1440px) {
+
+
 
   img.lift {
    position: sticky;
