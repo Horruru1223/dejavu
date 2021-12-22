@@ -360,7 +360,8 @@ img.lift {
   z-index:1;
 }
 
-
+.road2{
+  display: none;}
 
 .road{
   position: absolute;
