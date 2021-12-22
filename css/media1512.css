@@ -44,8 +44,6 @@
     display: grid;
     grid-template-columns: 304px 304px 304px 304px 304px 0px;
     grid-template-rows: 404px;
-
-    /*  */
   }
 
   .grid > * {
