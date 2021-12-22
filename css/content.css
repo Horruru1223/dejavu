@@ -362,12 +362,8 @@ img.lift {
 
 .road{
   position: absolute;
-  top: 2970px;
-  left: -120px;
-}
-
-.road2{
-
+  top: 2960px;
+  left: -110px;
 }
 
 .bench{
@@ -521,7 +517,7 @@ opacity: 0;
   border-radius: 50%;
   height: 23px;
   width: 23px;
-  top: -33w0px;
+  top: -330px;
   left: 60px;
   position: relative;
   z-index: 999;
