@@ -323,8 +323,8 @@
   }
 
   .rectangle{
-    width: 1512px;
-    height: 122px;
+    width: 1518px;
+    height: 106px;
     background-color: #161A1F;
   }
 
@@ -333,27 +333,24 @@
   }
 
   .grass1{
-    height: 372px;
-    width: 1512px;
+    height: 300px;
+    width: 1518px;
   }
 
   .rectangle2{
     background-color: #364634;
     width: 1518px;
     top: 2967px;
-    height: 372px;
+    height: 300px;
     z-index:1;
   }
 
-  .road{
+   .road{
     position: absolute;
-    top: 2860px;
-    left: -38px;
-  }
+    top: 2900px;
+    left: 100px;
+    }
 
-  .road2{
-    display: none;
-  }
 
   .bench{
     padding: 0px 1340px 432px 350px;
