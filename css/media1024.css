@@ -317,6 +317,7 @@
   background: url('../images/road1024.svg');
   top: 3180px;
   left: -8px;
+  visibility: visible;
 }
 
  .road{
