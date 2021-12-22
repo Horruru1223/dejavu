@@ -349,8 +349,11 @@
     position: absolute;
     top: 2699px;
     left: -103px;
-
   }
+
+.road2{
+  display: none;
+}
 
   .bench{
     padding: 0px 1340px 432px 350px;
