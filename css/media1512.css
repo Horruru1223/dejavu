@@ -1,4 +1,4 @@
-@media (min-width:1512px) and (max-width:1919px) {
+@media (min-width:1025px) and (max-width:1512px) {
 
   body{
     width: 1140px;
@@ -356,8 +356,9 @@
     left: -155px;
     }
 
-.road2{
-  
+ .road2{
+display: none;
+opacity: 0%;
 }
 
   .bench{
@@ -953,3 +954,4 @@
     	-webkit-filter: grayscale(0);
     	filter: grayscale(0);
     }
+}
