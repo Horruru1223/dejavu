@@ -315,11 +315,9 @@
     z-index:1;
   }
 
- .road2{
+ /* .road2 {
     position: absolute;
-    top: 0px;
-    left: 0px;
-  }
+  } */
 
 .road{
   display: none;
