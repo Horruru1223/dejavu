@@ -276,7 +276,7 @@
    padding:0px 50px 33px 20px;
    top: 2968px;
    position:absolute;
-   z-index: 999;
+   z-index: 998;
   }
 
   .cust{
@@ -294,13 +294,23 @@
 
   .rectangle{
     width: 1920px;
-    height: 122px;
+    height: 110px;
     background-color: #161A1F;
   }
 
   .text{
     padding: 44px 1681px 20px 34px;
   }
+
+.road2{
+  position: absolute;
+  margin-top: -555px;
+  margin-left: -6PX;
+}
+
+ .road{
+   display:none;
+ }
 
   .grass1{
     height: 372px;
@@ -311,17 +321,9 @@
     background-color: #364634;
     width: 1920px;
     top: 2967px;
-    height: 372px;
+    height: 297px;
     z-index:1;
   }
-
- /* .road2 {
-    position: absolute;
-  } */
-
-.road{
-  display: none;
-}
 
   .bench{
     padding: 0px 1340px 432px 350px;
