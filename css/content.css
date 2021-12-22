@@ -350,7 +350,7 @@ img.lift {
 
  .road2{
  position: absolute;
-
+visibility: hidden;
 }
 
 .road{
