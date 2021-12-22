@@ -2,6 +2,7 @@
 
   body{
     width: 1140px;
+    overflow-x: hidden;
   }
 
   img.lift {
@@ -341,6 +342,7 @@
 
 .road2{
   display: none;
+  opacity: 0%;
 }
 
   .bench{
