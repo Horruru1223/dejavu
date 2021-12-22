@@ -19,11 +19,6 @@ img.lift {
 }
 
 .grid {
-  /* display: grid;
-   grid-gap: 0px;
-   grid-template-columns: repeat(auto-fit, 320px);
-   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
-
   display: grid;
   grid-template-columns: 320px 320px 320px 320px 320px 320px;
   grid-template-rows: 296px;
@@ -329,14 +324,6 @@ img.lift {
   position: absolute;
 }
 
-{
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 .rectangle{
   width: 1920px;
   height: 122px;
@@ -361,7 +348,8 @@ img.lift {
 }
 
 .road2{
-  display: none;}
+  
+}
 
 .road{
   position: absolute;
