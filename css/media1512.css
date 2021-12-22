@@ -31,13 +31,13 @@
        grid-template-rows: 283px; */
    .grid {
     display: grid;
-    grid-template-columns: 304px 304px 304px 304px 304px 304px;
+    grid-template-columns: 304px 304px 304px 304px 304px 0px;
     grid-template-rows: 285px;
   }
 
   .grid1 {
     display: grid;
-    grid-template-columns: 304px 304px 304px 304px 304px 304px;
+    grid-template-columns: 304px 304px 304px 304px 304px 0px;
     grid-template-rows: 404px;
 
     /*  */
