@@ -363,7 +363,10 @@ img.lift {
   position: absolute;
   top: 2964px;
   left: -10px;
+}
 
+.road2{
+  display: none;
 }
 
 .bench{
