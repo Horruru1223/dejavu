@@ -349,7 +349,10 @@
     position: absolute;
     top: 2861px;
     left: -58px;
+  }
 
+  .road2{
+    display: none;
   }
 
   .bench{
