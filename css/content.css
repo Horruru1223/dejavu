@@ -312,7 +312,7 @@ img.lift {
 }
 
 .door{
- padding:0px 49px 33px 18px;
+ padding:3px 49px 33px 18px;
  top: 2749px;
  position:absolute;
  z-index: 999;
@@ -362,8 +362,8 @@ img.lift {
 
 .road{
   position: absolute;
-  top: 2958px;
-  left: 8px;
+  top: 2970px;
+  left: -120px;
 }
 
 .road2{
@@ -521,7 +521,7 @@ opacity: 0;
   border-radius: 50%;
   height: 23px;
   width: 23px;
-  top: -320px;
+  top: -330px;
   left: 60px;
   position: relative;
   z-index: 999;
@@ -552,8 +552,8 @@ opacity: 0;
   border-radius: 50%;
   height: 23px;
   width: 23px;
-  top: -415px;
-  left: 180px;
+  top: -380px;
+  left: 200px;
   position: relative;
   z-index: 999;
 }
@@ -567,7 +567,7 @@ opacity: 0;
   border-radius: 50%;
   height: 18px;
   width: 18px;
-  top: -380px;
+  top: -360px;
   left: 180px;
   position: relative;
   z-index: 999;
@@ -584,7 +584,7 @@ opacity: 0;
   height: 18px;
   width: 18px;
   top: -430px;
-  left: 220px;
+  left: 160px;
   position: relative;
   z-index: 999;
   opacity: 100;
@@ -599,8 +599,8 @@ opacity: 0;
   border-radius: 50%;
   height: 23px;
   width: 23px;
-  top: -425px;
-  left: 240px;
+  top: -410px;
+  left: 120px;
   position: relative;
   z-index: 999;
 }
