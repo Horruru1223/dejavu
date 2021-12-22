@@ -1,4 +1,5 @@
-@media (min-width:800px) and (max-width:1024px) {
+@media (min-width:800px) and (max-width:1024px){
+
 
   body{
     background-color: #1F2429;
@@ -300,7 +301,7 @@
   }
 
   .rectangle{
-    width: 1920px;
+    width: 1024px;
     height: 110px;
     top: 3550px;
     background-color: #161A1F;
@@ -313,6 +314,7 @@
 
 .road2{
   position: absolute;
+  background: url('../images/road1024.svg');
   top: 3180px;
   left: -8px;
 }
@@ -323,12 +325,12 @@
 
   .grass1{
     height: 372px;
-    width: 1512px;
+    width: 1024px;
   }
 
   .rectangle2{
     background-color: #364634;
-    width: 1920px;
+    width: 1024px;
     top: 2967px;
     height: 297px;
     z-index:1;
@@ -341,7 +343,7 @@
     z-index: 999;
   }
 
-  .circle1 {
+  /* .circle1 {
     background: #DD086E;
     border-radius: 50%;
     height: 44px;
@@ -446,7 +448,7 @@
 
   .circle7:hover {
     transform: scale(2);
-  }
+  } */
 
   .circle8 {
     background: #DD086E;
@@ -888,7 +890,7 @@
      100%{background-position: -1639.9px top;}
     }
 
-    .ani15{
+    /* .ani15{
       width:154px;
       height:174px;
       display: block;
@@ -899,9 +901,9 @@
       background-position: -154px;
       animation: ani15  1s steps(1) infinite;
       animation-play-state: running;
-    }
+    } */
 
-    .ani15:hover{
+    /* .ani15:hover{
       animation-play-state: paused;
     }
 
@@ -914,7 +916,7 @@
       70%{background-position: -772px top;}
       184%{background-position: -926px top;}
       100%{background-position: -1081px top;}
-    }
+    } */
 
     .hover figure img {
      -webkit-filter: grayscale(100%);
@@ -927,3 +929,4 @@
     	-webkit-filter: grayscale(0);
     	filter: grayscale(0);
     }
+}
