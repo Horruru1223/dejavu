@@ -303,7 +303,7 @@
   }
 
   .door{
-   padding:0px 50px 33px 20px;
+   padding:4px 50px 33px 20px;
    top: 2650px;
    position:absolute;
    z-index: 999;
@@ -339,7 +339,7 @@
 
   .rectangle2{
     background-color: #364634;
-    width: 1512px;
+    width: 1518px;
     top: 2967px;
     height: 372px;
     z-index:1;
@@ -347,8 +347,8 @@
 
   .road{
     position: absolute;
-    top: 2861px;
-    left: -58px;
+    top: 2860px;
+    left: -38px;
   }
 
   .road2{
@@ -552,7 +552,7 @@
     height: 18px;
     width: 18px;
     top: -380px;
-    left: 180px;
+    left: 170px;
     position: relative;
     z-index: 999;
     opacity: 100;
@@ -568,7 +568,7 @@
     height: 18px;
     width: 18px;
     top: -430px;
-    left: 220px;
+    left: 200px;
     position: relative;
     z-index: 999;
     opacity: 100;
