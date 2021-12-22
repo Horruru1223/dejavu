@@ -311,7 +311,7 @@ img.lift {
 }
 
 .door{
- padding:0px 50px 33px 20px;
+ padding:0px 49px 33px 18px;
  top: 2749px;
  position:absolute;
  z-index: 999;
@@ -361,12 +361,12 @@ img.lift {
 
 .road{
   position: absolute;
-  top: 2964px;
-  left: -10px;
+  top: 2958px;
+  left: 8px;
 }
 
 .road2{
-  display: none;
+
 }
 
 .bench{
@@ -598,8 +598,8 @@ opacity: 0;
   border-radius: 50%;
   height: 23px;
   width: 23px;
-  top: -430px;
-  left: 265px;
+  top: -425px;
+  left: 240px;
   position: relative;
   z-index: 999;
 }
