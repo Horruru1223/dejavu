@@ -26,13 +26,13 @@
 
   .grid {
     display: grid;
-    grid-template-columns: 340px 340px 340px 333px 333px 333px;
+    grid-template-columns: 341px 341px 341px 0px 0px 0px;
     grid-template-rows: 320px;
   }
 
   .grid1 {
     display: grid;
-    grid-template-columns: 340px 340px 0px 340px 333px 333px;
+    grid-template-columns: 340px 340px 0px 340px 0px 0px;
   }
 
   .grid > * {
