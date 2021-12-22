@@ -1,5 +1,10 @@
 @media (min-width:800px) and (max-width:1024px) {
 
+  body{
+    background-color: #1F2429;
+    overflow-x: hidden;
+  }
+
   img.lift {
    position: sticky;
    width: 326px;
