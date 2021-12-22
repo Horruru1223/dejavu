@@ -51,7 +51,7 @@
 
   .a{
     background-color: #3B4851;
-    padding:55px 83px;
+    padding:55px 78px;
   }
 
   .b{
@@ -84,7 +84,7 @@
 
   .a1{
    background-color: #2D323A;
-   padding:55px 20px;
+   padding:55px 15px;
   }
 
   .b1{
@@ -137,7 +137,7 @@
 
   .b3{
    background-color: #293238;
-   padding:50px 20px;
+   padding:36px 20px;
   }
 
   .c3{
@@ -147,7 +147,7 @@
 
   .e3{
    background-color: #1F272D;
-   padding:65px 46px;
+   padding:55px 43px;
   }
 
   .f3{
@@ -156,12 +156,12 @@
 
   .a4{
    background-color: #323F47;
-   padding:65px 93px;
+   padding:55px 93px;
   }
 
   .b4{
    background-color: #394349;
-   padding:65px 46px;
+   padding:55px 46px;
       }
 
   .c4{
@@ -171,7 +171,7 @@
 
   .e4{
    background-color: #374047;
-   padding:80px 85px;
+   padding:60px 75px;
   }
 
   .f4{
@@ -180,7 +180,7 @@
 
   .a5{
    background-color: #293238;
-   padding:65px 83px;
+   padding:55px 80px;
   }
 
   .b5{
@@ -190,7 +190,7 @@
 
   .c5{
    background-color: #323F47;
-   padding:65px 46px;
+   padding:55px 43px;
   }
 
   .e5{
@@ -204,17 +204,17 @@
 
   .a6{
    background-color: #2C3139;
-   padding:75px 94px;
+   padding:75px 78px;
   }
 
   .b6{
    background-color: #313B43;
-   padding:65px 46px;
+   padding:55px 43px;
   }
 
   .c6{
    background-color: #36444C;
-   padding:65px 46px;
+   padding:55px 43px;
   }
 
   .e6{
@@ -228,7 +228,7 @@
 
   .a7{
    background-color: #3A4951;
-   padding:65px 83px;
+   padding:55px 70px;
   }
 
   .b7{
@@ -243,7 +243,7 @@
 
   .e7{
    background-color: #313C44;
-   padding:65px 46px;
+   padding:55px 43px;
   }
 
   .f7{
@@ -276,17 +276,17 @@
 
   .a9{
    background-color: #313B43;
-   padding:91px 80px 117px 80px;
+   padding:91px 70px 117px 70px;
   }
 
   .b9{
    background-color: #3A4951;
-   padding:109px  76px 109px 70px;
+   padding:109px  65px 109px 65px;
   }
 
   .c9{
    background-color: #3A4951;
-   padding:109px 96px 104px 85px;
+   padding:109px 90px 104px 80px;
   }
 
   .d9{
@@ -487,7 +487,7 @@
     height: 18px;
     width: 18px;
     top: -340px;
-    left: 50px;
+    left: 40px;
     position: relative;
     z-index: 999;
     opacity: 100;
@@ -503,7 +503,7 @@
     height: 23px;
     width: 23px;
     top: -320px;
-    left: 90px;
+    left: 80px;
     position: relative;
     z-index: 999;
   }
@@ -533,8 +533,8 @@
     border-radius: 50%;
     height: 23px;
     width: 23px;
-    top: -450px;
-    left: 60px;
+    top: -440px;
+    left: 30px;
     position: relative;
     z-index: 999;
   }
@@ -549,7 +549,7 @@
     height: 18px;
     width: 18px;
     top: -380px;
-    left: 180px;
+    left: 170px;
     position: relative;
     z-index: 999;
     opacity: 100;
@@ -565,7 +565,7 @@
     height: 18px;
     width: 18px;
     top: -430px;
-    left: 220px;
+    left: 200px;
     position: relative;
     z-index: 999;
     opacity: 100;
@@ -580,8 +580,8 @@
     border-radius: 50%;
     height: 23px;
     width: 23px;
-    top: -480px;
-    left: 155px;
+    top: -465px;
+    left: 145px;
     position: relative;
     z-index: 999;
   }
@@ -595,8 +595,8 @@
       height:150px;
       display: block;
       position: relative;
-      margin-top: 65px;
-      margin-left: 46px;
+      margin-top: 55px;
+      margin-left: 43px;
       background: url('../images/windoww.svg');
       background-position: -393px;
       animation: ani1  1.5s steps(2) infinite;
@@ -612,8 +612,8 @@
       height:150px;
       display: block;
       position: relative;
-      margin-top: 65px ;
-      margin-left:46px;
+      margin-top: 55px ;
+      margin-left:43px;
       background: url('../images/windowani12.svg');
       background-position: -600px;
       animation: ani2  2s steps(2) infinite;
@@ -631,7 +631,7 @@
       display: block;
       position: relative;
       margin-top: 55px ;
-      margin-left:43px;
+      margin-left: 43px;
       background: url('../images/www.svg');
       animation: ani3 0.5s steps(1) infinite;
     }
@@ -653,8 +653,8 @@
       height:150px;
       display: block;
       position: relative;
-      margin-top: 60px ;
-      margin-left: 46px;
+      margin-top: 55px ;
+      margin-left: 43px;
       background: url('../images/window100.svg');
       animation: ani4 1s steps(1) infinite;
     }
@@ -677,8 +677,8 @@
       height:199px;
       display: block;
       position: relative;
-      margin-top: 65px;
-      margin-left: 46px;
+      margin-top: 55px;
+      margin-left: 43px;
       background: url('../images/window9.svg');
       background-position: -600px;
       animation: ani5 2s steps(2) infinite;
@@ -695,8 +695,8 @@
       height:150px;
       display: block;
       position: relative;
-      margin-top: 65px ;
-      margin-left: 83px;
+      margin-top: 55px ;
+      margin-left: 78px;
       background: url('../images/windowani3.svg');
       background-position: -260px;
       animation: ani6  0.7s steps(2) infinite;
@@ -717,8 +717,8 @@
       height:199px;
       display: block;
       position: relative;
-      margin-top: 65px ;
-      margin-left: 46px;
+      margin-top: 55px ;
+      margin-left: 43px;
       background: url('../images/w12.svg');
       animation: ani7 0.5s steps(1) infinite;
     }
@@ -740,8 +740,8 @@
       height:150px;
       display: block;
       position: relative;
-      margin-top: 65px ;
-      margin-left: 83px;
+      margin-top: 55px ;
+      margin-left: 78px;
       background: url('../images/w13.svg');
       animation: ani8 2s steps(1) infinite;
     }
@@ -768,8 +768,8 @@
       height:199px;
       display: block;
       position: relative;
-      margin-top: 65px ;
-      margin-left: 46px;
+      margin-top: 55px ;
+      margin-left: 43px;
       background: url('../images/window18.svg');
       animation: w18 0.8s steps(1) infinite;
       animation-play-state: running;
@@ -796,8 +796,8 @@
      height:150px;
      display: block;
      position: relative;
-     margin-top: 65px ;
-     margin-left: 46px;
+     margin-top: 55px ;
+     margin-left: 43px;
      background: url('../images/w98.svg');
      animation: ani10 0.8s steps(1) infinite;
    }
@@ -816,8 +816,8 @@
      height:200px;
      display: block;
      position: relative;
-     margin-top: 65px ;
-     margin-left: 46px;
+     margin-top: 55px ;
+     margin-left: 43px;
      background: url('../images/w31.svg');
      animation: ani11 0.5s steps(1) infinite;
    }
@@ -839,8 +839,8 @@
       height:150px;
       display: block;
       position: relative;
-      margin-top: 65px ;
-      margin-left: 46px;
+      margin-top: 55px ;
+      margin-left: 43px;
       background: url('../images/window33.svg');
       animation: ani12 1s steps(1) infinite;
     }
@@ -861,8 +861,8 @@
       height:151px;
       display: block;
       position: relative;
-      margin-top: 65px ;
-      margin-left: 46px;
+      margin-top: 55px;
+      margin-left: 78px;
       background: url('../images/window36.svg');
       animation: ani13 1s steps(1) infinite;
     }
@@ -883,8 +883,8 @@
       height:199px;
       display: block;
       position: relative;
-      margin-top: 65px ;
-      margin-left:46px;
+      margin-top: 55px ;
+      margin-left:43px;
       background: url('../images/window39.svg');
       animation: ani14 1s steps(1) infinite;
       animation-play-state: running;
@@ -912,7 +912,7 @@
       display: block;
       position: relative;
       margin-top: 109px ;
-      margin-left:81px;
+      margin-left:75px;
       background: url('../images/window46.svg');
       background-position: -154px;
       animation: ani15  1s steps(1) infinite;
