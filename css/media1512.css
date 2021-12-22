@@ -1,14 +1,14 @@
-@media (min-width:1512px) and (max-width:1512px) {
+@media (min-width:1512px) and (max-width:1910px) {
 
   img.lift {
    position: sticky;
    width: 298px;
    height: 284px;
-   padding-left: 915px;
+   padding-left: 47.7%;
   }
 
   .lift{
-    padding-left: 90px;
+    padding-left: 47.7%;
     position: sticky;
     position: -webkit-sticky;
     width: 300px;
@@ -23,7 +23,13 @@
       position: absolute;
     }
 
-  .grid {
+    /* .grid {
+      display: grid;
+       grid-gap: 0px;
+       grid-template-columns: repeat(auto-fit, 250px);
+       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+       grid-template-rows: 283px; */
+   .grid {
     display: grid;
     grid-template-columns: 304px 304px 304px 304px 304px 304px;
     grid-template-rows: 285px;
@@ -33,6 +39,8 @@
     display: grid;
     grid-template-columns: 304px 304px 304px 304px 304px 304px;
     grid-template-rows: 404px;
+
+    /*  */
   }
 
   .grid > * {
@@ -71,8 +79,7 @@
   }
 
   .f{
-   background-color: #323F47;
-   padding:60px 35px;
+   display: none;
   }
 
   .a1{
@@ -96,8 +103,7 @@
   }
 
   .f1{
-   background-color: #2F3840;
-   position: relative;
+   display: none;
   }
 
   .a2{
@@ -117,12 +123,11 @@
 
   .e2{
    background-color: #36444B;
-   padding:65px 46px;
+   padding:65px 76px;
   }
 
   .f2{
-   background-color: #2D323A;
-   padding:65px 46px;
+   display: none;
   }
 
   .a3{
@@ -132,7 +137,7 @@
 
   .b3{
    background-color: #293238;
-   padding:60px 37px;
+   padding:60px 28px;
   }
 
   .c3{
@@ -146,13 +151,12 @@
   }
 
   .f3{
-   background-color: #343B43;
-   position:relative;
+   display: none;
   }
 
   .a4{
    background-color: #323F47;
-   padding:65px 83px;
+   padding:65px 93px;
   }
 
   .b4{
@@ -171,8 +175,7 @@
   }
 
   .f4{
-   background-color: #3B4851;
-   padding:65px 46px;
+   display: none;
   }
 
   .a5{
@@ -196,8 +199,7 @@
   }
 
   .f5{
-   background-color: #3A4951;
-   padding:65px 46px;
+   display: none;
   }
 
   .a6{
@@ -221,8 +223,7 @@
   }
 
   .f6{
-   background-color: #161A1F;
-   padding:95px 65px;
+   display: none;
   }
 
   .a7{
@@ -246,8 +247,7 @@
   }
 
   .f7{
-   background-color: #3B4952;
-   padding:65px 46px;
+   display: none;
   }
 
   .a8{
@@ -257,7 +257,7 @@
 
   .b8{
    background-color: #38454E;
-   padding:67px 11px;
+   padding:67px 4px;
   }
 
   .c8{
@@ -271,23 +271,22 @@
   }
 
   .f8{
-   background-color: #313B43;
-   padding:67px 55px;
+   display: none;
   }
 
   .a9{
    background-color: #313B43;
-   padding:91px 80px 117px 90px;
+   padding:91px 80px 117px 80px;
   }
 
   .b9{
    background-color: #3A4951;
-   padding:109px  76px 109px 81px;
+   padding:109px  76px 109px 70px;
   }
 
   .c9{
    background-color: #3A4951;
-   padding:109px 96px 104px 97px;
+   padding:109px 96px 104px 85px;
   }
 
   .d9{
@@ -300,8 +299,7 @@
   }
 
   .f9{
-    background-color: #3B454D;
-    padding:102px 0px;
+    display: none;
   }
 
   .door{
@@ -325,7 +323,7 @@
   }
 
   .rectangle{
-    width: 1920px;
+    width: 1512px;
     height: 122px;
     background-color: #161A1F;
   }
@@ -341,7 +339,7 @@
 
   .rectangle2{
     background-color: #364634;
-    width: 1920px;
+    width: 1512px;
     top: 2967px;
     height: 372px;
     z-index:1;
@@ -349,7 +347,7 @@
 
   .road{
     position: absolute;
-    top: 2867px;
+    top: 2861px;
     left: -58px;
 
   }
@@ -382,7 +380,7 @@
     height: 37px;
     width: 37px;
     top: 140px;
-    left: 1400px;
+    left: 1490px;
     position: relative;
     z-index: 999;
   }
@@ -396,8 +394,8 @@
     border-radius: 50%;
     height: 44px;
     width: 44px;
-    top: 235px;
-    left: 1325px;
+    top: 210px;
+    left: 1360px;
     position: relative;
     z-index: 999;
     opacity: 100;
@@ -412,7 +410,7 @@
     height: 44px;
     width: 44px;
     top: 143px;
-    left: 1470px;
+    left: 1570px;
     position: relative;
     z-index: 999;
   }
@@ -426,8 +424,8 @@
     border-radius: 50%;
     height: 39px;
     width: 39px;
-    top: 160px;
-    left: 1425px;
+    top: 140px;
+    left: 1470px;
     position: relative;
     z-index: 999;
     opacity: 100;
@@ -442,8 +440,8 @@
     border-radius: 50%;
     height: 39px;
     width: 39px;
-    top: 50px;
-    left: 1360px;
+    top: 0px;
+    left: 1390px;
     position: relative;
     z-index: 999;
     opacity: 100;
@@ -592,7 +590,7 @@
     transform: scale(2);
   }
 
-  ani1{
+  .ani1{
       width:206px;
       height:150px;
       display: block;
