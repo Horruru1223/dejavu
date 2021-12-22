@@ -32,7 +32,7 @@
 
   .grid1 {
     display: grid;
-    grid-template-columns: 340px 340px 0px 340px 0px 0px;
+    grid-template-columns: 340px 340px 0px 341px 0px 0px;
   }
 
   .grid > * {
@@ -295,7 +295,9 @@
   .rectangle{
     width: 1920px;
     height: 110px;
+    top: 3550px;
     background-color: #161A1F;
+    position: absolute;
   }
 
   .text{
