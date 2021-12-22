@@ -326,13 +326,13 @@
     width: 1512px;
   }
 
-  .rectangle2{
+  /* .rectangle2{
     background-color: #364634;
     width: 1440px;
     top: 2967px;
     height: 372px;
     z-index:1;
-  }
+  } */
 
   .road{
     position: absolute;
@@ -936,3 +936,4 @@
     	-webkit-filter: grayscale(0);
     	filter: grayscale(0);
     }
+  }
