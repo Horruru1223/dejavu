@@ -868,8 +868,8 @@ opacity: 0%;
       height:151px;
       display: block;
       position: relative;
-      margin-top: 65px ;
-      margin-left: 46px;
+      margin-top: 55px ;
+      margin-left: 43px;
       background: url('../images/window36.svg');
       animation: ani13 1s steps(1) infinite;
     }
